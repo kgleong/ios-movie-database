@@ -71,7 +71,7 @@ class Movie {
         return formattedScore
     }
     
-    func posterUrl(size: String = "w500") -> NSURL? {
+    func posterUrl(size: String = "w154") -> NSURL? {
         if let unwrappedPosterPath = posterPath {
             let url = "\(MovieDatabaseConfig.secureBaseImageUrl!)\(size)\(unwrappedPosterPath)"
             

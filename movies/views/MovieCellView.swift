@@ -13,6 +13,7 @@ class MovieCellView: UITableViewCell {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
     
+    static let separatorWeight: CGFloat = 1
     static let cellIdentifier = "com.orangemako.movieCellView"
     
     override func awakeFromNib() {
@@ -23,5 +24,20 @@ class MovieCellView: UITableViewCell {
     
     private func setupView() {
         titleLabel.font = UIFont.boldSystemFontOfSize(titleLabel.font.pointSize)
+        
+        addSeparatorToBottom()
+    }
+    
+    private func addSeparatorToBottom() {
+        let separator = UIView(
+            frame: CGRectMake(
+                0, bounds.size.height - MovieCellView.separatorWeight,
+                bounds.size.width,
+                MovieCellView.separatorWeight
+            )
+        )
+        
+        separator.backgroundColor = UIColor.lightGrayColor()
+        addSubview(separator)
     }
 }

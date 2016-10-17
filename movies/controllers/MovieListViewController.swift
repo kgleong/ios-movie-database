@@ -50,6 +50,7 @@ class MovieListViewController: UIViewController, UITableViewDelegate, UITableVie
     }
     
     func setupTableView() {
+        // Refresh control
         refreshControl.attributedTitle = NSAttributedString(string: "Loading")
         refreshControl.addTarget(self, action: #selector(refreshMovies), forControlEvents: UIControlEvents.ValueChanged)
         moviesTableView.insertSubview(refreshControl, atIndex: 0)
@@ -57,6 +58,7 @@ class MovieListViewController: UIViewController, UITableViewDelegate, UITableVie
         moviesTableView.delegate = self
         moviesTableView.dataSource = self
         moviesTableView.allowsSelection = true
+        moviesTableView.separatorColor = UIColor.clearColor()
     }
     
     func setupSearchBar() {
