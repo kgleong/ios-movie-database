@@ -75,14 +75,14 @@ class MovieListViewController: UIViewController, UITableViewDelegate, UITableVie
                 case MovieDatabaseClient.nowPlayingPath:
                     tabBarItem = UITabBarItem(
                         title: "Now Playing",
-                        image: UIImage(named: "NowPlayingTabBarIcon"),
-                        selectedImage: UIImage(named: "NowPlayingTabBarIcon")
+                        image: UIImage(named: "now-playing-tab-bar-icon"),
+                        selectedImage: UIImage(named: "now-playing-tab-bar-icon")
                     )
                 case MovieDatabaseClient.topRatedPath:
                     tabBarItem = UITabBarItem(
                         title: "Top Rated",
-                        image: UIImage(named: "TopRatedTabBarIcon"),
-                        selectedImage: UIImage(named: "TopRatedTabBarIcon")
+                        image: UIImage(named: "top-rated-tab-bar-icon"),
+                        selectedImage: UIImage(named: "top-rated-tab-bar-icon")
                     )
                 default:
                     print("Invalid path")

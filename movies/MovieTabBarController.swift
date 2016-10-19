@@ -9,9 +9,10 @@
 import UIKit
 
 class MovieTabBarController: UITabBarController {
+    let tabBarPadding: CGFloat = 10
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         setupView()
     }
     

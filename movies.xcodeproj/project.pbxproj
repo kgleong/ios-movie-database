@@ -13,7 +13,6 @@
 		9F012A6C1D7727160088770D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F012A6A1D7727160088770D /* LaunchScreen.storyboard */; };
 		9F012A761D7728AF0088770D /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F012A751D7728AF0088770D /* MovieListViewController.swift */; };
 		9F012A781D772A7C0088770D /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F012A771D772A7C0088770D /* Movie.swift */; };
-		9F14D9091D85B797006F3A42 /* MoveListTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F14D9081D85B796006F3A42 /* MoveListTabBarController.swift */; };
 		9F53071C1D772F450066A0C9 /* MovieCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F53071B1D772F450066A0C9 /* MovieCellView.swift */; };
 		9F65BD3D1D806555006A5A5B /* MovieListNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F65BD3C1D806555006A5A5B /* MovieListNavigationController.swift */; };
 		9F7FE4CA1D8AF5D60014C0E5 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7FE4C91D8AF5D60014C0E5 /* MovieDetailViewController.swift */; };
@@ -34,7 +33,6 @@
 		9F012A6D1D7727160088770D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F012A751D7728AF0088770D /* MovieListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovieListViewController.swift; path = controllers/MovieListViewController.swift; sourceTree = "<group>"; };
 		9F012A771D772A7C0088770D /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Movie.swift; path = models/Movie.swift; sourceTree = "<group>"; };
-		9F14D9081D85B796006F3A42 /* MoveListTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoveListTabBarController.swift; path = controllers/MoveListTabBarController.swift; sourceTree = "<group>"; };
 		9F53071B1D772F450066A0C9 /* MovieCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovieCellView.swift; path = views/MovieCellView.swift; sourceTree = "<group>"; };
 		9F65BD3C1D806555006A5A5B /* MovieListNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovieListNavigationController.swift; path = controllers/MovieListNavigationController.swift; sourceTree = "<group>"; };
 		9F7FE4C91D8AF5D60014C0E5 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovieDetailViewController.swift; path = controllers/MovieDetailViewController.swift; sourceTree = "<group>"; };
@@ -116,7 +114,6 @@
 			children = (
 				9F012A751D7728AF0088770D /* MovieListViewController.swift */,
 				9F65BD3C1D806555006A5A5B /* MovieListNavigationController.swift */,
-				9F14D9081D85B796006F3A42 /* MoveListTabBarController.swift */,
 				9F7FE4C91D8AF5D60014C0E5 /* MovieDetailViewController.swift */,
 				9FEBFC121DAD19600033CFAA /* MovieTabBarController.swift */,
 			);
@@ -285,7 +282,6 @@
 				9F53071C1D772F450066A0C9 /* MovieCellView.swift in Sources */,
 				9F012A761D7728AF0088770D /* MovieListViewController.swift in Sources */,
 				9FAA872F1D805D8200268E60 /* MovieDatabaseConfig.swift in Sources */,
-				9F14D9091D85B797006F3A42 /* MoveListTabBarController.swift in Sources */,
 				9FAA872C1D805D0F00268E60 /* MovieDatabaseClient.swift in Sources */,
 				9F65BD3D1D806555006A5A5B /* MovieListNavigationController.swift in Sources */,
 				9F7FE4CA1D8AF5D60014C0E5 /* MovieDetailViewController.swift in Sources */,
