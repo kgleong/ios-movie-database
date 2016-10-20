@@ -2,7 +2,7 @@
 
 Displays currently playing and top rated movies by utilizing the [The Movie Database API](https://www.themoviedb.org/documentation/api).
 
-![Movie demo](/images/movie-demo.gif)
+![Movie demo](/images/movies-demo.gif)
 
 ## Features
 
