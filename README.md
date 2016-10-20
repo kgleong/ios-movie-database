@@ -1,17 +1,21 @@
 # Movies
 
-Displays currently playing and top rated movies by utilizing the [The Movie Database API](https://www.themoviedb.org/documentation/api).
+Displays currently playing and top rated movies by pulling data from the [The Movie Database API](https://www.themoviedb.org/documentation/api).
 
 ![Movie demo](/images/movies-demo.gif)
 
 ## Features
 
-* Uses the [OMAKOView](http://cocoapods.org/pods/OMAKOView) CocoaPods library, written by the author, to display movie details.
+* Uses the **[OMAKOView](http://cocoapods.org/pods/OMAKOView)** CocoaPods library, written by the author, to display movie details.
+* Asynchronous network calls
 * Movie search
 * Infinite scroll
-* Movie DB API keys referenced in local `.plist` file.
+* Uses Autolayout to layout views.
+* Movie DB API keys referenced in local `.plist` file (secretes not stored in repository).
 
 ## Specifications
 
+|Name|Value|
+|----|-----|
 |**Language**|Swift 2.2|
 |**iOS version**|9.3|
