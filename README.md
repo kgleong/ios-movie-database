@@ -2,6 +2,8 @@
 
 Displays currently playing and top rated movies by pulling data from the [The Movie Database API](https://www.themoviedb.org/documentation/api).
 
+Downloadable from the **[App Store](https://itunes.apple.com/us/app/omako-movies/id1167858725)**
+
 ![Movie demo](/images/movies-demo.gif)
 
 ## Features

@@ -20,12 +20,14 @@ class MovieCellView: UITableViewCell {
         setupView()
     }
     
+    override func layoutSubviews() {
+        addSeparatorToBottom()
+    }
+    
     // MARK: - Setup View
     
     private func setupView() {
         titleLabel.font = UIFont.boldSystemFontOfSize(titleLabel.font.pointSize)
-        
-        addSeparatorToBottom()
     }
     
     private func addSeparatorToBottom() {

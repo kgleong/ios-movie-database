@@ -21,6 +21,10 @@ profile
 DerivedData
 *.hmap
 *.ipa
+*.xcworkspace
+!default.xcworkspace
+profile
+.idea/
 
 # Bundler
 .bundle
