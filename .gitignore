@@ -21,10 +21,11 @@ profile
 DerivedData
 *.hmap
 *.ipa
+.idea/
+
+# Xcode personal settings
 *.xcworkspace
 !default.xcworkspace
-profile
-.idea/
 
 # Bundler
 .bundle
