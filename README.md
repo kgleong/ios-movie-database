@@ -13,7 +13,7 @@ Downloadable from the **[App Store](https://itunes.apple.com/us/app/omako-movies
 * Movie search
 * Infinite scroll
 * Uses Autolayout to layout views.
-* Movie DB API keys referenced in local `.plist` file (secretes not stored in repository).
+* Movie DB API keys referenced in local `.plist` file (secrets not stored in repository).
 
 ## Specifications
 
